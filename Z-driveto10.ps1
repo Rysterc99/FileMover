@@ -4,7 +4,7 @@
 #
 $env:UserName
 
-$path = "\\dutchess\data\HomeStore01\$($env:UserName)\Windows7Data" # gets the path from the server to the Z-Drive
+$path = "\(fillerData)\$($env:UserName)\Windows7Data" # gets the path from the server to the Z-Drive
 
 $outfile =  "C:\Users\$($env:UserName)" #Gets the File Path the Person's C-Drive 
 
